@@ -1,0 +1,10 @@
+version: 0.0 
+os: linux 
+files: 
+  - source: / 
+    destination: /home/ubuntu/ci-cd-django 
+permissions: 
+  - object: /home/ubuntu/ci-cd-django 
+    mode: 755
+    owner: ubuntu 
+    group: ubuntu 
