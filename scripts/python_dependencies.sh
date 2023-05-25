@@ -10,9 +10,11 @@ sudo apt install -y gunicorn
 
 virtualenv venv
 
+cd /home/ubuntu/
+
 source venv/bin/activate
 
-cd p2_newsproject
+cd /home/ubuntu/p2_newsproject
 
 sudo pip install -r requirements.txt > /home/ubuntu/python_dep_o.txt
 
