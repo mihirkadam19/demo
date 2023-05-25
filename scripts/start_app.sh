@@ -1,5 +1,5 @@
 pwd > /home/ubuntu/start_app_o.txt
 
-cd /home/ubuntu
+cd /home/ubuntu/p2_newsproject
 
 sudo gunicorn p2_newsproject.wsgi:application -c gunicorn.conf.py 
