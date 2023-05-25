@@ -2,13 +2,9 @@ pwd > /home/ubuntu/python_dep_o.txt
 
 cd /home/ubuntu/ 
 
-sudo apt install python3-pip
+sudo apt install -y python3-pip
 
-Y
-
-sudo apt install python3-virtualenv
-
-Y
+sudo apt install -y python3-virtualenv
 
 virtualenv venv
 
