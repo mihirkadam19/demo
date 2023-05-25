@@ -10,7 +10,7 @@ virtualenv venv
 
 cd /home/ubuntu/
 
-source venv/bin/activate
+source /home/ubuntu/venv/bin/activate
 
 cd /home/ubuntu/p2_newsproject
 
