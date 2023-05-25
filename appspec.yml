@@ -2,9 +2,16 @@ version: 0.0
 os: linux 
 files: 
   - source: / 
-    destination: /home/ubuntu/ci-cd-django 
+    destination: /home/ubuntu/p2_newsproject 
 permissions: 
-  - object: /home/ubuntu/ci-cd-django 
+  - object: /home/ubuntu/p2_newsproject 
     mode: 755
     owner: ubuntu 
     group: ubuntu 
+hooks:
+   AfterInstall:
+     - location: scripts/python_dependencies.sh
+       timeout: 180
+   ApplicationStart:
+     - location: scripts/start_app.sh
+       timeout: 180
