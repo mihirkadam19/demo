@@ -4,7 +4,11 @@ cd /home/ubuntu/
 
 sudo apt install python3-pip
 
+Y
+
 sudo apt install python3-virtualenv
+
+Y
 
 virtualenv venv
 
