@@ -2,6 +2,4 @@ pwd > /home/ubuntu/start_app_o.txt
 
 cd /home/ubuntu
 
-source venv/bin/activate
-
-sudo gunicorn p2_newsproject.wsgi:application -c gunicorn.conf.py > /home/ubuntu/start_app_o.txt
+sudo gunicorn p2_newsproject.wsgi:application -c gunicorn.conf.py 
