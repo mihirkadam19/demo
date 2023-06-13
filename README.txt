@@ -1,1 +1,3 @@
-This is branch is created to test deployment using the CI/CD of GCP. Code from this branch is pushed to Google Cloud Source Repository, then the cloudbuil.yaml file is used as a build template by Cloud Build. The artifact created by Cloud Build is stored on Container Registry and used by Cloud Run for its deployment.
+This is branch is created to test deployment using the CI/CD of GCP.
+Code from this branch is pushed to Google Cloud Source Repository, then the cloudbuil.yaml file is used as a build template by Cloud Build.
+The artifact created by Cloud Build is stored on Container Registry and used by Cloud Run for its deployment.
